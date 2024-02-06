@@ -646,6 +646,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 854700243}
+    - target: {fileID: 810998512316760617, guid: 04fcd9a3f951160468b0da59c20abd7c,
+        type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2090530979451339196, guid: 04fcd9a3f951160468b0da59c20abd7c,
         type: 3}
       propertyPath: m_Name
@@ -676,6 +681,13 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1981436061}
+    - target: {fileID: 3484691838120383253, guid: 04fcd9a3f951160468b0da59c20abd7c,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"On
+        Follow","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 3499105536567124803, guid: 04fcd9a3f951160468b0da59c20abd7c,
         type: 3}
       propertyPath: m_Mesh
@@ -776,6 +788,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1587422425}
+    - target: {fileID: 5432795552727864605, guid: 04fcd9a3f951160468b0da59c20abd7c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5527935447964392404, guid: 04fcd9a3f951160468b0da59c20abd7c,
         type: 3}
       propertyPath: m_Mesh
@@ -866,6 +883,36 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1019030180}
+    - target: {fileID: 6829708941273593284, guid: 04fcd9a3f951160468b0da59c20abd7c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829708941273593284, guid: 04fcd9a3f951160468b0da59c20abd7c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829708941273593284, guid: 04fcd9a3f951160468b0da59c20abd7c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829708941273593284, guid: 04fcd9a3f951160468b0da59c20abd7c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829708941273593284, guid: 04fcd9a3f951160468b0da59c20abd7c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829708941273593284, guid: 04fcd9a3f951160468b0da59c20abd7c,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7247711147947129071, guid: 04fcd9a3f951160468b0da59c20abd7c,
         type: 3}
       propertyPath: m_Mesh
