@@ -249,7 +249,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 3030
+  m_VersionIndex: 3033
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -623,7 +623,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 3980
+  m_VersionIndex: 3983
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -978,7 +978,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 3980
+  m_VersionIndex: 3986
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1364,7 +1364,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 3980
+  m_VersionIndex: 3986
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1514,6 +1514,8 @@ GameObject:
   - component: {fileID: 8405288383253138034}
   - component: {fileID: 777749429604978057}
   - component: {fileID: 6331096977417189600}
+  - component: {fileID: 2509389567171068828}
+  - component: {fileID: 3734676913208874011}
   m_Layer: 0
   m_Name: Enemy 4 Gun
   m_TagString: Enemy
@@ -1573,8 +1575,10 @@ MonoBehaviour:
       Follow","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Keep
       Distance","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Waypoint_1","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 0}
 --- !u!114 &255966514501052121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1655,6 +1659,44 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 93c4e9aceeb30e94a921a66b0e925e9f, type: 2}
+--- !u!195 &2509389567171068828
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090530979451339196}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &3734676913208874011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090530979451339196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 43ce16f4a2cbd7640bdf96201d014182, type: 2}
 --- !u!1 &5308665104210881821
 GameObject:
   m_ObjectHideFlags: 0
@@ -2077,7 +2119,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 3980
+  m_VersionIndex: 3986
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2463,7 +2505,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 3980
+  m_VersionIndex: 3986
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2695,7 +2737,7 @@ PrefabInstance:
     - target: {fileID: 5817391921632748950, guid: 85767508230716c4b9c792c2b86856af,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 701
+      value: 704
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2809,7 +2851,7 @@ PrefabInstance:
     - target: {fileID: 5817391921632748950, guid: 85767508230716c4b9c792c2b86856af,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 701
+      value: 704
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2925,7 +2967,7 @@ PrefabInstance:
     - target: {fileID: 5817391921632748950, guid: 85767508230716c4b9c792c2b86856af,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 701
+      value: 704
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3034,7 +3076,7 @@ PrefabInstance:
     - target: {fileID: 5817391921632748950, guid: 85767508230716c4b9c792c2b86856af,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 701
+      value: 704
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3143,7 +3185,7 @@ PrefabInstance:
     - target: {fileID: 5817391921632748950, guid: 85767508230716c4b9c792c2b86856af,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 701
+      value: 704
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3182,7 +3224,7 @@ PrefabInstance:
     - target: {fileID: 2300610227046359682, guid: 33b34a9c69d7d1f4a81af97e76f59019,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 3980
+      value: 3983
       objectReference: {fileID: 0}
     - target: {fileID: 6069260530330814454, guid: 33b34a9c69d7d1f4a81af97e76f59019,
         type: 3}
@@ -3307,7 +3349,7 @@ PrefabInstance:
     - target: {fileID: 2300610227046359682, guid: 33b34a9c69d7d1f4a81af97e76f59019,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 3980
+      value: 3983
       objectReference: {fileID: 0}
     - target: {fileID: 6069260530330814454, guid: 33b34a9c69d7d1f4a81af97e76f59019,
         type: 3}
@@ -3401,7 +3443,7 @@ PrefabInstance:
     - target: {fileID: 2300610227046359682, guid: 33b34a9c69d7d1f4a81af97e76f59019,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 3980
+      value: 3983
       objectReference: {fileID: 0}
     - target: {fileID: 6069260530330814454, guid: 33b34a9c69d7d1f4a81af97e76f59019,
         type: 3}
@@ -3565,7 +3607,7 @@ PrefabInstance:
     - target: {fileID: 5817391921632748950, guid: 85767508230716c4b9c792c2b86856af,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 701
+      value: 704
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3679,7 +3721,7 @@ PrefabInstance:
     - target: {fileID: 5817391921632748950, guid: 85767508230716c4b9c792c2b86856af,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 701
+      value: 704
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3718,7 +3760,7 @@ PrefabInstance:
     - target: {fileID: 2300610227046359682, guid: 33b34a9c69d7d1f4a81af97e76f59019,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 3980
+      value: 3983
       objectReference: {fileID: 0}
     - target: {fileID: 6069260530330814454, guid: 33b34a9c69d7d1f4a81af97e76f59019,
         type: 3}
@@ -3901,7 +3943,7 @@ PrefabInstance:
     - target: {fileID: 5817391921632748950, guid: 85767508230716c4b9c792c2b86856af,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 701
+      value: 704
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
