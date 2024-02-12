@@ -8739,12 +8739,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1715957434 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4425242915688228660, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-    type: 3}
-  m_PrefabInstance: {fileID: 1485004557623474993}
-  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1720618567
 Mesh:
   m_ObjectHideFlags: 0
@@ -9456,7 +9450,7 @@ PrefabInstance:
     - target: {fileID: 2090530979451339196, guid: 2644dcf4383f64a4fbf99465afab5d7b,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2099907345098600744, guid: 2644dcf4383f64a4fbf99465afab5d7b,
         type: 3}
@@ -11196,22 +11190,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1209598680}
-    - target: {fileID: 274243807358516893, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 274243807358516893, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 274243807358516893, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: bb9875d7babd8d74cbc809433427c177,
-        type: 2}
     - target: {fileID: 290562998599386055, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
         type: 3}
       propertyPath: m_Mesh
@@ -11262,26 +11240,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1824216302}
-    - target: {fileID: 1037464288577031132, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"On
-        Follow","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Keep
-        Distance","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Pattern","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1037464288577031132, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1037464288577031132, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 1485004557623474994}
     - target: {fileID: 1060207900002646922, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
         type: 3}
       propertyPath: m_Mesh
@@ -11292,69 +11250,16 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 692011683}
-    - target: {fileID: 1209823639975220523, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Enemy
-        target","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1209823639975220523, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1209823639975220523, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 1715957434}
     - target: {fileID: 1214991888371630561, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1696865603}
-    - target: {fileID: 1225520912116748968, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Enemy
-        Target","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Waypoint_1","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Waypoint_2","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Waypoint_3","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Waypoint_4","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Waypoint_1_Check","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Waypoint_2_Check","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Waypoint_3_Check","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Waypoint_4_Check","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"On
-        Follow","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Keep
-        Distance","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 1322137128106844042, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 499367235}
-    - target: {fileID: 1537234426654332797, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Enemy
-        target","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537234426654332797, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537234426654332797, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 1715957434}
     - target: {fileID: 1819710782340960191, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
         type: 3}
       propertyPath: m_Mesh
@@ -11375,39 +11280,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1824216302}
-    - target: {fileID: 3147096046355692899, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Enemy
-        target","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 3147096046355692899, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3147096046355692899, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 1715957434}
-    - target: {fileID: 3286103645652120106, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 3286103645652120106, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3286103645652120106, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: bb9875d7babd8d74cbc809433427c177,
-        type: 2}
     - target: {fileID: 3795844602167695401, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
         type: 3}
       propertyPath: m_Mesh
@@ -11423,32 +11295,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 304226813}
-    - target: {fileID: 4346650717048432205, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4346650717048432205, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4346650717048432205, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: bb9875d7babd8d74cbc809433427c177,
-        type: 2}
-    - target: {fileID: 4425242915688228660, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: m_Name
-      value: Enemy body
-      objectReference: {fileID: 0}
-    - target: {fileID: 4425242915688228660, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: m_TagString
-      value: EditorOnly
-      objectReference: {fileID: 0}
     - target: {fileID: 4489831540325934906, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
         type: 3}
       propertyPath: m_Mesh
@@ -11599,23 +11445,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1315915004}
-    - target: {fileID: 8184241043648675402, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Enemy
-        target","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 8184241043648675402, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8184241043648675402, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 1715957434}
     - target: {fileID: 8254782032679453469, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
         type: 3}
       propertyPath: m_Mesh
@@ -11646,22 +11475,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1107400072}
-    - target: {fileID: 8380872623708368649, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 8380872623708368649, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8380872623708368649, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: bb9875d7babd8d74cbc809433427c177,
-        type: 2}
     - target: {fileID: 8422888624610089705, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
         type: 3}
       propertyPath: m_Mesh
@@ -11697,12 +11510,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9708c0bd9e2c0b4448a78f9790ea1c57, type: 3}
---- !u!1 &1485004557623474994 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4241713915829734173, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-    type: 3}
-  m_PrefabInstance: {fileID: 1485004557623474993}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
