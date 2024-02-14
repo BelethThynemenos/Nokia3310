@@ -1516,6 +1516,7 @@ GameObject:
   - component: {fileID: 6331096977417189600}
   - component: {fileID: 2509389567171068828}
   - component: {fileID: 3734676913208874011}
+  - component: {fileID: 8128725138781152586}
   m_Layer: 0
   m_Name: Enemy 4 Gun
   m_TagString: Enemy
@@ -1696,6 +1697,14 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 43ce16f4a2cbd7640bdf96201d014182, type: 2}
+--- !u!81 &8128725138781152586
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090530979451339196}
+  m_Enabled: 1
 --- !u!1 &5308665104210881821
 GameObject:
   m_ObjectHideFlags: 0
@@ -2785,7 +2794,7 @@ PrefabInstance:
     - target: {fileID: 5112702813081333432, guid: d70970db338e60d45a6cb6cf22fd4945,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 5112702813081333432, guid: d70970db338e60d45a6cb6cf22fd4945,
         type: 3}
@@ -2820,6 +2829,11 @@ PrefabInstance:
     - target: {fileID: 5112702813081333432, guid: d70970db338e60d45a6cb6cf22fd4945,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128159178929812963, guid: d70970db338e60d45a6cb6cf22fd4945,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8918673655539394936, guid: d70970db338e60d45a6cb6cf22fd4945,
@@ -2874,7 +2888,7 @@ PrefabInstance:
     - target: {fileID: 5112702813081333432, guid: d70970db338e60d45a6cb6cf22fd4945,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3
+      value: -3.48
       objectReference: {fileID: 0}
     - target: {fileID: 5112702813081333432, guid: d70970db338e60d45a6cb6cf22fd4945,
         type: 3}
@@ -3401,7 +3415,7 @@ PrefabInstance:
     - target: {fileID: 5112702813081333432, guid: d70970db338e60d45a6cb6cf22fd4945,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.0000005
+      value: -3.475
       objectReference: {fileID: 0}
     - target: {fileID: 5112702813081333432, guid: d70970db338e60d45a6cb6cf22fd4945,
         type: 3}
@@ -3474,6 +3488,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2956735545434251098, guid: d70970db338e60d45a6cb6cf22fd4945,
         type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"fire_object_arrive","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"shooted","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2956735545434251098, guid: d70970db338e60d45a6cb6cf22fd4945,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2956735545434251098, guid: d70970db338e60d45a6cb6cf22fd4945,
+        type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 0}
@@ -3495,7 +3521,7 @@ PrefabInstance:
     - target: {fileID: 5112702813081333432, guid: d70970db338e60d45a6cb6cf22fd4945,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: 2.43
       objectReference: {fileID: 0}
     - target: {fileID: 5112702813081333432, guid: d70970db338e60d45a6cb6cf22fd4945,
         type: 3}
