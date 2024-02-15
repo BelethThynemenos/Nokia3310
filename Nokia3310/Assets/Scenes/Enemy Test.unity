@@ -14843,11 +14843,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy 4 Gun e Pattern
       objectReference: {fileID: 0}
-    - target: {fileID: 6728903152769382232, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6932847150193529779, guid: 9708c0bd9e2c0b4448a78f9790ea1c57,
         type: 3}
       propertyPath: m_Mesh
@@ -15025,6 +15020,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy X Gun e Pattern
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630339129996322948, guid: 38a5d917027e5504b83792d49fd317da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2271640232699428230, guid: 38a5d917027e5504b83792d49fd317da,
         type: 3}
